@@ -1,0 +1,230 @@
+body{
+    margin:0px;
+    background-color: #f8f9fa;
+}
+.navb{
+    display: flex;
+    height:65px;
+    width: 100%;
+    align-items: center;
+    background-color: #212529;
+    justify-content: space-between;
+    font-family: 'young serif', sans-serif;
+    color: #f8f9fa;
+}
+.left{
+    margin-left: 20px;
+    width: 320px;
+    font-size: 20px;
+}
+
+.right{
+    width: 690px;
+    text-align: center;  
+}
+.end{
+    margin: 1rem;
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: x-large;
+}
+.butt{
+    font-size: 21.5px;
+    font-family: 'Young Serif', serif;
+    margin: 1rem;
+    height: 38px;
+    width: 110.5px;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-radius: 35px;
+    border: none;
+}
+:hover.end{
+    color: rgb(165, 162, 162);
+}
+:hover.butt{
+    color:black; 
+    background-color:rgb(165, 162, 162) ;
+}
+
+
+/* navbar styling is ending here*/
+.d1{    
+    margin-top: 0px;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+.heading{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 30px;
+}
+.about{
+    font-size: 32px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+#img2{
+    height: 460px;
+    width: 500px;
+    margin: 0px 280px 0px 100px;
+    padding:50px 0px 0px 0px;
+    float: left;
+  
+}
+#p22{
+    font-size: 47px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Young Serif', serif;
+}
+.d2{
+    padding: 2px 20px;
+    background-color: #e9ecef;
+    color: #212529;
+    height: 550px;
+}
+/* div 2 is ending here*/
+.d3{
+    height: 325px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+    font-size: 35px;
+    background-color: #ced4da;
+    padding: 10px 0px 10px 0px;
+    color: #212529;
+}
+.butt2{
+    font-size: 26px;
+    font-family: 'Young Serif', serif;
+    color: #f8f9fa;
+    background-color: #212529;
+    border-radius: 35px;
+    margin: 1rem;
+    border: none;
+    margin-right: 40px;
+    margin-top: 30px;
+    height: 60px;
+    width: 300px;
+}
+:hover.butt2{
+    color:black; 
+    background-color:rgb(165, 162, 162) ;
+}
+.p11{
+    margin: 0%;
+    padding: 0%;
+}
+.d3>h2{
+    margin: 20px 0px 10px 0px;
+}
+
+
+.d4{
+    height: 500px;
+    width: 100%;
+    background-color: #adb5bd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    height: 335px;
+    width: 250px;
+    margin:0px;
+    padding: 0px;
+    background-color: #212529ab;
+    border-radius:35px ;
+    box-shadow: 10px 10px #737e89d0;
+    margin-top: 10px;
+    text-align: center; 
+}
+.inn{
+    height: 210px;
+    width: 190px;
+    margin: 30px 60px 25px 30px;
+    border-radius: 35px;
+    box-shadow:10px 10px #212529;
+    border: 2px solid black;
+    clear: both;
+}
+.inner{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px 23px 5px 23px;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+:hover.inner{
+    color:black; 
+    background-color: #e9ecef;
+}
+/* footer styling is starting here*/
+footer
+{
+    background: #6c757d;
+    width: 100%;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+.foot
+{
+    
+    background: #6c757d;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.foot img{
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    }
+
+.refer-div
+{
+    width:100%;
+     grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+}
+.four{
+    grid-column: 4;
+    grid-row: 1;
+}
+div.refer{
+    font-size: small;
+}
+.refer
+{
+    margin-top: 30px;
+    height:300px;
+    width:250px;
+    color:rgba(0, 0, 0, 0.445);
+    font-size: small;
+    padding-left: 135px;
+}
+
+center
+{
+    font-size: small;
+    color:rgba(0, 0, 0, 0.432);
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+
